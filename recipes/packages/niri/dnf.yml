@@ -1,0 +1,8 @@
+type: dnf
+install:
+  install-weak-deps: false
+  packages:
+    - niri
+    - xdg-desktop-portal-gnome
+    - xdg-desktop-portal-gtk
+    - xwayland-satellite
