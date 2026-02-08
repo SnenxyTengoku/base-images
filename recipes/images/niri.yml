@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: niri
+name: base-images/niri
 description: Fedora Atomic with Niri Window Manager
 
 # the base image to build on top of (FROM) and the version tag to use
