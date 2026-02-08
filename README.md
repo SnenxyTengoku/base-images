@@ -18,4 +18,4 @@ Fedora image with niri included, and a few extras. "Inspired" by [Wayblue](https
 
 - Use Universal Blue's `base-main` as base image
 - Minimize script usage/custom additions
-- Don't preinstall custom utilities (e.g. terminal, bar, launchers, notification manager, etc.; The builder *is* expected to extend with their preferred applications, anyways)
+- Don't preinstall custom utilities (e.g. terminal, bar, launchers, notification manager, etc.; The builder *is* expected to extend with their preferred applications and configurations, anyways)
