@@ -26,7 +26,8 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          # !! Add your recipes here
+          # wayland window manager based images
+          - images/mangowc.yml
           - images/niri.yml
     steps:
       - name: Optimize build times

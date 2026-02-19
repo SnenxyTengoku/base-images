@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: base-images/niri
-description: Fedora Atomic with Niri Window Manager
+name: base-images/mangowc
+description: Fedora Atomic with MangoWC Window Manager
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
@@ -10,7 +10,7 @@ image-version: 43
 modules:
   - from-file: packages/basic.yml # default basic packages
   - from-file: packages/wayland.yml # wayland basic packages
-  - from-file: packages/niri/dnf.yml # default niri package selection
+  - from-file: packages/mangowc/dnf.yml # default niri package selection
   - from-file: shared/sddm.yml # sddm installation and configuration
   - from-file: shared/files.yml # shared base filesystem
 

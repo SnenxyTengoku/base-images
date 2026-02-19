@@ -5,28 +5,25 @@ install:
   install-weak-deps: false
   packages:
     # environment
-    - tuned-ppd
-    - xorg-x11-server-Xwayland
+    - alsa-firmware
+    - brightnessctl
+    - dbus-daemon
+    - dbus-tools
+    - ddcutil
+    - fprintd-pam
+    - google-noto-emoji-fonts
     - headsetcontrol
     - mediainfo
-    - polkit
-    - xfce-polkit 
-    - fprintd-pam
-    - xdg-user-dirs
-    - dbus-tools
-    - dbus-daemon
-    - wl-clipboard
+    - openssl
     - pavucontrol
     - playerctl
-    - qt5-qtwayland
-    - qt6-qtwayland
-    - vulkan-validation-layers
-    - vulkan-tools
-    - google-noto-emoji-fonts
-    - ddcutil
-    - openssl
+    - polkit
+    - tuned-ppd
     - vim
-    - alsa-firmware
+    - vulkan-tools
+    - vulkan-validation-layers
+    - xdg-user-dirs
+    - xfce-polkit
 
     # sound
     - wireplumber
@@ -40,23 +37,13 @@ install:
     - bluez-tools
     - firewall-config
 
-    # file manager
+    # file management
     - gvfs-mtp
     - gvfs-gphoto2
     - gvfs-smb
     - gvfs-nfs
     - gvfs-fuse
     - gvfs-archive
-
-    # screenshot
-    - slurp
-    - grim
-
-    # display
-    - wlr-randr
-    - wlsunset
-    - brightnessctl
-    - kanshi
 
     # theme and GUI
     - gnome-themes-extra

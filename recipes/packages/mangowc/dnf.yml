@@ -1,0 +1,12 @@
+type: dnf
+repos:
+  cleanup: true
+  files:
+    - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+install:
+  install-weak-deps: false
+  packages:
+    - mangowc
+    - xdg-desktop-portal-wlr
+    - xdg-desktop-portal-gtk
+    - xorg-x11-server-Xwayland

@@ -1,0 +1,17 @@
+type: dnf
+install:
+  install-weak-deps: false
+  packages:
+    # environment
+    - qt5-qtwayland
+    - qt6-qtwayland
+    - wl-clipboard
+
+    # screenshot
+    - slurp
+    - grim
+
+    # display
+    - wlr-randr
+    - wlsunset
+    - kanshi
