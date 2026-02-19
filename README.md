@@ -27,3 +27,9 @@ Fedora image with [MangoWC](https://github.com/DreamMaoMao/mangowc) included, an
 
 - Use Universal Blue's `base-main` as base image
 - Includes `xorg-xwayland`
+
+## Other images
+
+### `kutia`
+
+A "mainly for custom use, unless you have a usecase for this too" image that merges both `niri` and `mangowc` into one, including both window managers and utilities into one image.
