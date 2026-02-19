@@ -14,8 +14,16 @@ Refer to [BlueBuild](https://blue-build.org)'s documentation for more informatio
 
 ## `niri`
 
-Fedora image with niri included, and a few extras. "Inspired" by [Wayblue](https://github.com/wayblueorg/wayblue)'s `niri` image, but with less additions and clean-up/modernization of some modules. <small>*Lots* of homework copied from them, so props to the Wayblue team.</small>
+Fedora image with [niri](https://github.com/niri-wm/niri) included, and a few extras. "Inspired" by [Wayblue](https://github.com/wayblueorg/wayblue)'s `niri` image, but with less additions and clean-up/modernization of some modules. <small>*Lots* of homework copied from them, so props to the Wayblue team.</small>
 
 - Use Universal Blue's `base-main` as base image
 - Minimize script usage/custom additions
+- Includes [xwayland-satellite](https://github.com/Supreeeme/xwayland-satellite)
 - Don't preinstall custom utilities (e.g. terminal, bar, launchers, notification manager, etc.; The builder *is* expected to extend with their preferred applications and configurations, anyways)
+
+## `mangowc`
+
+Fedora image with [MangoWC](https://github.com/DreamMaoMao/mangowc) included, and the extra basics.
+
+- Use Universal Blue's `base-main` as base image
+- Includes `xorg-xwayland`
