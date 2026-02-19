@@ -29,6 +29,9 @@ jobs:
           # wayland window manager based images
           - images/mangowc.yml
           - images/niri.yml
+
+          # custom images
+          - images/kutia.yml
     steps:
       - name: Optimize build times
         shell: bash
