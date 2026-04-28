@@ -1,6 +1,7 @@
 type: dnf
 install:
   install-weak-deps: false
+  skip-unavailable: true
   packages:
     - niri
     - xdg-desktop-portal-gnome

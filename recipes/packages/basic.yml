@@ -3,6 +3,7 @@
 type: dnf
 install:
   install-weak-deps: false
+  skip-unavailable: true
   packages:
     # environment
     - alsa-firmware

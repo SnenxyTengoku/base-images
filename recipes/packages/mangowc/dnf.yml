@@ -5,6 +5,7 @@ repos:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 install:
   install-weak-deps: false
+  skip-unavailable: true
   packages:
     - mangowc
     - xdg-desktop-portal-wlr
